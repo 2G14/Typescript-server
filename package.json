@@ -1,0 +1,14 @@
+{
+  "name": "ts-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf ./out/*",
+    "build": "yarn clean && tsc"
+  },
+  "private": true,
+  "dependencies": {
+    "@types/node": "^11.9.5"
+  }
+}
